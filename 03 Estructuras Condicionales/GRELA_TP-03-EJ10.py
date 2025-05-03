@@ -12,7 +12,7 @@ if hemisferio == "n":
     elif (dia_ano >= 21 and mes_ano == 9) or mes_ano == 10 or mes_ano == 11 or (dia_ano <= 20 and mes_ano == 12 ):
         print ("Usted esta en Otoño")
 elif hemisferio == "s":
-    # Estaciones para el hemisferio Sur (opuestas a las del Norte)
+   
     if (dia_ano >= 21 and mes_ano == 12) or mes_ano == 1 or mes_ano == 2 or (dia_ano <= 20 and mes_ano == 3):
         print("Usted esta en Verano")
     elif (dia_ano >= 21 and mes_ano == 3) or mes_ano == 4 or mes_ano == 5 or (dia_ano <= 20 and mes_ano == 6):
